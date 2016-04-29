@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/StartMenu.unity
+- path: Assets/SimulationScene.unity
   isLoaded: 1
   isActive: 1

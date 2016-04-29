@@ -1,11 +1,13 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Urban Decision Theater.CSharp.Plugins", "Urban Decision Theater.CSharp.Plugins.csproj", "{8299C73D-F694-EC76-9EFA-4510D2EC4911}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{BB41B153-9E8B-EDDE-D46E-EAE974586CEA}") = "Urban Decision Theater", "Assembly-CSharp-firstpass.csproj", "{F52703FB-7BF5-189E-CCB9-4C77A605CB21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Urban Decision Theater.CSharp", "Urban Decision Theater.CSharp.csproj", "{63A4368A-90B6-AE19-7484-9A2AD7D42E8F}"
+Project("{BB41B153-9E8B-EDDE-D46E-EAE974586CEA}") = "Urban Decision Theater", "Assembly-CSharp.csproj", "{DC989D44-491A-2867-4CB6-23DBF2D29C93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Urban Decision Theater.CSharp.Editor", "Urban Decision Theater.CSharp.Editor.csproj", "{9A5EC6D5-14ED-4E22-8039-D5EF80975354}"
+Project("{BB41B153-9E8B-EDDE-D46E-EAE974586CEA}") = "Urban Decision Theater", "Assembly-CSharp-Editor.csproj", "{1FE8AFDB-40B8-EC08-0618-742FBB1D3447}"
+EndProject
+Project("{BB41B153-9E8B-EDDE-D46E-EAE974586CEA}") = "Urban Decision Theater", "Assembly-UnityScript.unityproj", "{F6F78A53-2502-F016-1E52-B3079EA765D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,20 +15,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8299C73D-F694-EC76-9EFA-4510D2EC4911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8299C73D-F694-EC76-9EFA-4510D2EC4911}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8299C73D-F694-EC76-9EFA-4510D2EC4911}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8299C73D-F694-EC76-9EFA-4510D2EC4911}.Release|Any CPU.Build.0 = Release|Any CPU
-		{63A4368A-90B6-AE19-7484-9A2AD7D42E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63A4368A-90B6-AE19-7484-9A2AD7D42E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63A4368A-90B6-AE19-7484-9A2AD7D42E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63A4368A-90B6-AE19-7484-9A2AD7D42E8F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9A5EC6D5-14ED-4E22-8039-D5EF80975354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9A5EC6D5-14ED-4E22-8039-D5EF80975354}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9A5EC6D5-14ED-4E22-8039-D5EF80975354}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9A5EC6D5-14ED-4E22-8039-D5EF80975354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52703FB-7BF5-189E-CCB9-4C77A605CB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52703FB-7BF5-189E-CCB9-4C77A605CB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52703FB-7BF5-189E-CCB9-4C77A605CB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52703FB-7BF5-189E-CCB9-4C77A605CB21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC989D44-491A-2867-4CB6-23DBF2D29C93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC989D44-491A-2867-4CB6-23DBF2D29C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC989D44-491A-2867-4CB6-23DBF2D29C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC989D44-491A-2867-4CB6-23DBF2D29C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE8AFDB-40B8-EC08-0618-742FBB1D3447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE8AFDB-40B8-EC08-0618-742FBB1D3447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE8AFDB-40B8-EC08-0618-742FBB1D3447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE8AFDB-40B8-EC08-0618-742FBB1D3447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F78A53-2502-F016-1E52-B3079EA765D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F78A53-2502-F016-1E52-B3079EA765D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F78A53-2502-F016-1E52-B3079EA765D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F78A53-2502-F016-1E52-B3079EA765D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
